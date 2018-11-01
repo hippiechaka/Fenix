@@ -1,0 +1,210 @@
+section#home{padding:0;}
+#main-slide-doble{display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+  padding:0;
+}
+#main-slide-doble #sync1{
+  position: absolute !important;
+  width:100%;
+  max-width:1140px;
+  height:426px;
+  z-index:2;
+  display:block;
+  left:calc(50% - 570px);
+  top:15vw;
+}
+#main-slide-doble #sync2{
+  position: relative;
+  width:100%;
+  z-index:1;
+  display:block;
+}
+#mision-vision{
+  display:block;
+  height:auto;
+  padding:60px 0;
+  position:relative;
+}
+#frasesSlide{background:#fff;padding:40px 0;}
+#frasesSlide .owl-controls{color:#414141;position:relative;z-index:4;cursor:pointer;}
+.masterTxtPadding{max-width:720px;}
+.masterTxtPadding h3{font-weight:bold;text-align:center;font-size:30px;}
+
+#clientes-container{
+    background:#ff0000;
+    width:100%;
+    height:auto;
+    padding:15px 0;
+}
+#clientesGrid{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:block;
+}
+#clientesGrid .item a{}
+#clientesGrid .item a p{
+  color:#fff;
+  text-align:center;
+  display:block;
+  position:relative;
+  top:-20px;
+}
+
+
+
+/* OWL CAROUSEL + KENBURNS */
+
+/*
+#slide-kenburns .owl-item.active .item img {
+  animation: mobileburns 30s infinite;
+}
+@media screen and (min-width: 800px) {
+  #slide-kenburns .owl-item.active .item img {
+    animation: kenburns 30s infinite;
+  }
+}
+
+#slide-kenburns .item {
+  position: relative;
+  overflow: hidden;
+}
+#slide-kenburns .item .text-container {
+  color: #fff;
+  font-size:24px;
+  width: 100%;
+  display: block;
+  z-index:2;
+  text-align:center;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 30px;
+}
+@media screen and (min-width: 800px) {
+  #slide-kenburns .item .text-container {
+    
+  }
+}
+#slide-kenburns .item .text-container.linked-item:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#slide-kenburns .item .text-container.linked-item:hover span {
+  text-decoration: underline;
+}
+#slide-kenburns .item .text-container > * {
+  padding: 0;
+  color: #FFFFFF;
+  margin: 0;
+}
+#slide-kenburns .item p {
+  color: #FFFFFF;
+  margin:0;
+}
+#slide-kenburns .item h4.list-heading {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+@media screen and (min-width: 800px) {
+  #slide-kenburns .item h4.list-heading {
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+  }
+}
+#slide-kenburns .item h5.overline {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-transform: none;
+  font-weight: 400;
+}
+@media screen and (min-width: 800px) {
+  #slide-kenburns .item h5.overline {
+    font-size: 1.5rem;
+  }
+}
+#slide-kenburns .item img {
+  display: block;
+  max-height: 300px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media screen and (min-width: 800px) {
+  #slide-kenburns .item img {
+    width: 100%;
+    max-height: 640px;
+  }
+}
+*/
+/* 
+::::::::::::::::::::::::::::::::::::::::::::::::::
+        KENBURNS EFFECT
+::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+@keyframes kenburns {
+  5% {
+    transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale3d(1.5, 1.5, 1.5) translate3d(-100px, -30px, 0px);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: scale3d(1.5, 1.5, 1.5) translate3d(-100px, -30px, 0px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes mobileburns {
+  5% {
+    transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: scale3d(2.5, 2.5, 2.5) translate3d(-100px, -30px, 0px);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: scale3d(2.5, 2.5, 2.5) translate3d(-100px, -30px, 0px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes noburns {
+  100% {
+    transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in;
+  }
+}
+/* 
+::::::::::::::::::::::::::::::::::::::::::::::::::
+        QUERIES
+::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 991px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 600px){
+
+}
+@media screen and (max-width: 480px){
+
+}
+
+
+
+
