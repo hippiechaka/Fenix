@@ -1,5 +1,5 @@
 <header id="top">
-	<nav class="navbar navbar-fixed-top navbar-default navbar-inverse header-large" id="mainMenu">
+	<nav class="navbar navbar-fixed-top navbar-default navbar-inverse" id="mainMenu">
 
 		<div class="container">
 			<div class="navbar-header">
