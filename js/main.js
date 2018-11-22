@@ -170,6 +170,20 @@ $("#clientesGrid").owlCarousel({
   });
 
 
+/* para cerrar el navbar al click */
+$('.mainMenuBtn').on('click', function(){
+    if ( $( '.navbar-collapse' ).hasClass('in') ) {
+        $('.navbar-toggle').click();
+    }
+});
+$('.navbar-brand').on('click', function(){
+    if ( $( '.navbar-collapse' ).hasClass('in') ) {
+        $('.navbar-toggle').click();
+    }
+}); 
+
+
+
 });
 
 
