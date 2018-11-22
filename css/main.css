@@ -556,6 +556,8 @@ hr.universalHR{
 @media screen and (max-width: 480px){
   #correos{font-size:21px;}
   #nav-res li {width:100%}
+  #quienes-somos {height: 75vh;margin-bottom:30px;}
+  #quienes-somos .item {height: 70vh;padding-top: 10vh;}
   #quienes-somos .item h2 {font-size: 24px;}
   #quienes-somos .item .info {font-size: 16px;}
 }
